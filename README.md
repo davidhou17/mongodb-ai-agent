@@ -19,5 +19,7 @@ Prompt engineering methods used:
 ## Dependencies
 
 Run:
-`pip install --quiet --upgrade pymongo voyageai openai langchain langchain_mongodb langchain_community`
+```
+pip install --quiet --upgrade pymongo voyageai openai langchain langchain_mongodb langchain_community
+```
 
