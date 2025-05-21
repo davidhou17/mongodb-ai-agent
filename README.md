@@ -1,12 +1,12 @@
 # MongoDB-native AI agent
 
-Demo AI agent using MongoDB, Voyage AI, OpenAI, and LangChain that implements agentic RAG and agent memory. No agent-specific frameworks needed.
+Demo AI agent using MongoDB, Voyage AI, and OpenAI that implements agentic RAG and agent memory. No agent-specific frameworks needed.
 
 Tools: `vector_seach_tool` and `calculator_tool`
 
 ## About
 Workflow:
-- Chunk and ingest vector embeddings into MongoDB Atlas.
+- Chunk and ingest vector embeddings into MongoDB Atlas. Uses LangChain for loading/chunking.
 - Specify the session id (agent will persist conversation interactions in a MongoDB collection).
 - Run queries about sample data (recent MongoDB earnings report) or math operations to use tools.
 
