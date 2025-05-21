@@ -19,11 +19,14 @@ Prompt engineering methods used:
 
 ## Configuration
 
-1. Run:
+1. Install dependencies:
 ```
 pip install --quiet --upgrade pymongo voyageai openai langchain langchain_mongodb langchain_community
 ```
 
 2. Create `.env` file with necessary credentials (MongoDB Atlas connection string, Voyage AI, and OpenAI API keys)
 
-3. Run `python main.py`
+3. Run the agent:
+```
+python main.py
+```
